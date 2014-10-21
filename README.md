@@ -1,3 +1,8 @@
+---
+tags: euler, problems
+languages: ruby
+resources: 1
+---
 # Project Euler
 
 ## Problem: Multiples of 3 and 5
