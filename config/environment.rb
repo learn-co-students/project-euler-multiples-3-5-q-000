@@ -3,4 +3,4 @@ require 'pry'
 
 Bundler.require(:default)
 
-require './multiples'
+require './lib/multiples'
