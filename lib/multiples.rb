@@ -1,1 +1,1 @@
-# Enter your solution here!
+# Enter your procedural solution here!
