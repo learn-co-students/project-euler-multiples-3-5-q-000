@@ -5,18 +5,6 @@ describe "Multiples" do
   describe "attributes and method tests" do
     subject { app }
 
-    it "has a limit attribute" do
-      expect(subject).to respond_to(:limit)
-    end
-
-    it "has a start attribute" do
-      expect(subject).to respond_to(:start)
-    end
-
-    it "has a multiples attribute" do
-      expect(subject).to respond_to(:multiples)
-    end
-
     it "raises ArgumentError when initialized without a limit parameter" do
       expect { invalid_app }.to raise_error(ArgumentError)
     end
