@@ -1,4 +1,3 @@
-
 # Project Euler
 
 ## Problem: Multiples of 3 and 5
@@ -9,7 +8,7 @@
 ## Instructions
 - Code your procedural solution into the `lib/multiples.rb` file.
 - Then when you have finished the procedural solution, code your object-oriented solution into the `lib/oo_multiples.rb` file.
-- Run your `rspec` test suite, and make each RSpec test pass.
+- Run `learn` until you get all of the RSpec tests to pass.
 
 ## Source
 - [Project Euler](https://projecteuler.net/) - [Problem 1](https://projecteuler.net/problem=1)
