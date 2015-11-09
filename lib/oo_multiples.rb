@@ -1,5 +1,6 @@
 # Enter your object-oriented solution here!
 class Multiples
+  attr_reader :limit
   def initialize(limit)
     @limit = limit
   end
