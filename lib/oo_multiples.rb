@@ -5,11 +5,11 @@ class Multiples
   end
 
   def collect_multiples
-    (1...@limit).select { |num| num % 5 == 0 || num % 3 == 0 }
+    (1...limit).select { |num| num % 5 == 0 || num % 3 == 0 }
   end
 
   def sum_multiples
-    (1...@limit).select { |num| num % 5 == 0 || num % 3 == 0 }.reduce(:+)
+    (1...limit).select { |num| num % 5 == 0 || num % 3 == 0 }.reduce(:+)
   end
 
 end
