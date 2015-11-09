@@ -10,7 +10,7 @@ class Multiples
   end
 
   def sum_multiples
-    (1...limit).select { |num| num % 5 == 0 || num % 3 == 0 }.reduce(:+)
+    collect_multiples.reduce(:+)
   end
 
 end
