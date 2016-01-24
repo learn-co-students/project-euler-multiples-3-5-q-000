@@ -12,7 +12,7 @@ end
 
 def sum_multiples(limit)
   count = 0
-  collect_multiples(limit).each do |multiple|
+  collect_multiples.each do |multiple|
     count += multiple
   end
   count

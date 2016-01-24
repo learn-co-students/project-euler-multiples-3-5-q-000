@@ -19,7 +19,7 @@ class Multiples
   
   def sum_multiples
     count = 0
-    collect_multiples.each do |multiple|
+    collect_multiples(limit).each do |multiple|
       count += multiple
     end
     count
