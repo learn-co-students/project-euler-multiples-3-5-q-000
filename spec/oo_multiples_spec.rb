@@ -1,3 +1,5 @@
+require_relative '../lib/oo_multiples'
+
 describe "Multiples" do
   let(:app) { Multiples.new(1000) }
   let(:invalid_app) { Multiples.new }

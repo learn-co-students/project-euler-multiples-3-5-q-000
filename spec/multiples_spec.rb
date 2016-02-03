@@ -1,3 +1,5 @@
+require_relative '../lib/multiples'
+
 describe "#collect_multiples(limit)" do
   it 'collects the correct multiples of natural numbers below 10' do
     expect(collect_multiples(10)).to eq([3,5,6,9])
