@@ -1,23 +1,12 @@
 # Enter your procedural solution here!
 
 def collect_multiples(limit)
-  natural_numbers = []
-   limit.times do |num|
-     if num >= 3 && ((num % 3 == 0) || (num % 5 == 0))
-       natural_numbers << num
-     end
-   end
-   return natural_numbers
+  (1...limit).to_a.reject do |num| #returns array
+    num unless num % 3 == 0 || num % 5 == 0
+  end
 end
-#collect_multiples(10)
+
 
 def sum_multiples(limit)
-  sum = collect_multiples(limit)
-  total = 0
-  sum.each do |y|
-    total += y
-  end
-  return total
+  collect_multiples(limit).inject(:+)
 end
-
-sum_multiples(10)
