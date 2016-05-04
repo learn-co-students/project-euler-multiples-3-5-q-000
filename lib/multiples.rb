@@ -3,8 +3,9 @@ def collect_multiples(limit)
   multiple = 3
   while multiple < limit
     if (multiple % 3) == 0 || (multiple % 5) == 0
-      lala.add multiple
+      lala << multiple
     end
+    multiple+=1
   end
   lala
 end

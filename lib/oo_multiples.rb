@@ -10,8 +10,9 @@ class Multiples
     multiple = 3
     while multiple < @limit
       if (multiple % 3) == 0 || (multiple % 5) == 0
-        lala.add multiple
+        lala << multiple
       end
+      multiple += 1
     end
     lala
   end
@@ -24,16 +25,4 @@ class Multiples
     }
     total
   end
-
-
-
-
-
 end
-
-natural = 3
-
-while natural < 1000
-
-end
-
