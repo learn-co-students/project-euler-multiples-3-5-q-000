@@ -1,1 +1,1 @@
-# Enter your object-oriented solution here!
+(0, 1000).Where(n => n % 3 = 0 || n % 5 = 0).Sum( ) 
