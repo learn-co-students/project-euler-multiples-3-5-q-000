@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative '../lib/multiples.rb'
+
+sum_multiples(10)
