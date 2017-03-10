@@ -6,14 +6,11 @@ class Multiples
   end
 
   def collect_multiples
-    (1...@limit).select do |num|
-      num % 3 === 0 || num % 5 === 0
-    end
+    (1...@limit).select{|num| num % 3 === 0 || num % 5 === 0}
   end
 
   def sum_multiples
-    nums = collect_multiples
-    nums.inject(0, :+)
+    collect_multiples.inject(0, :+)
   end
 
 end

@@ -1,10 +1,7 @@
 def collect_multiples(limit)
-  (1...limit).select do |num|
-    num % 3 === 0 || num % 5 === 0
-  end
+  (1...limit).select {|num| num % 3 === 0 || num % 5 === 0}
 end
 
 def sum_multiples(limit)
-  nums = collect_multiples(limit)
-  nums.inject(0, :+)
+  collect_multiples(limit).inject(0, :+)
 end
