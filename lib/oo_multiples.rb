@@ -18,14 +18,7 @@ class Multiples
   end
 
   def sum_multiples
-    array = *(1...@limit)
-    match_array = []
-    array.map do |number|
-      if number % 3 == 0 || number % 5 == 0
-        match_array << number
-      end
-    end
-    match_array.uniq.inject(0, :+)
+    self.collect_multiples.inject(0, :+)
   end
 
 end
