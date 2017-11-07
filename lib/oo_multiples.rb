@@ -6,7 +6,7 @@ class Multiples
   end
 
   def collect_multiples()
-    (3...@limit).select { |n| n if n%3 == 0 || n%5 == 0}
+    (3...@limit).select { |n| n%3 == 0 || n%5 == 0}
   end
 
   def sum_multiples()
