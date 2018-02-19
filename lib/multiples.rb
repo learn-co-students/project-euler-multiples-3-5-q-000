@@ -18,9 +18,7 @@ def sum_multiples(limit)
   collection = collect_multiples(limit)
   sum = 0
 
-  collection.each do |num|
-    sum += num
-  end
+  collection.each {|num| sum += num}
 
   return sum 
 end

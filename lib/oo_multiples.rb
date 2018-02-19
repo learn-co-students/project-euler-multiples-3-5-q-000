@@ -24,9 +24,7 @@ class Multiples
     collection = self.collect_multiples
     sum = 0
 
-    collection.each do |num|
-      sum += num
-    end
+    collection.each {|num| sum += num}
 
     return sum
   end
